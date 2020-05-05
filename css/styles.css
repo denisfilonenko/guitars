@@ -1,0 +1,94 @@
+body {
+	margin: 0;
+	background-color: #08080a;
+}
+
+.gallery {
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 5vh;
+	padding: 2%;
+	border-radius: 10px;
+	border: 1px solid #97afc9;
+	box-shadow: 0 0 10px 0 #97afc9;
+}
+
+.images, .thumbs {
+	list-style: none;
+	padding: 0;
+}
+
+.images {
+	display: flex;
+	justify-content: center;
+	-ms-align-items: flex-end;
+	align-items: center;
+	height: 50vh;
+}
+
+.images img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
+	height: 90%;
+}
+
+.thumbs {
+	display: flex;
+}
+
+.thumbs {
+	display: flex;
+	justify-content: center;
+}
+
+.thumbs li {
+	width: 19%;
+	padding: 1.5%;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	cursor: pointer;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	opacity: 0.4;
+}
+
+.thumbs .active {
+	opacity: 1;
+}
+
+.thumbs li:hover {
+	border-color: #97afc9;
+	opacity: 1;
+}
+
+.thumbs img {
+	width: 100%;
+}
+
+form {
+	margin-top: 5%;
+	margin-bottom: 2%;
+	font-size: 26px;
+	font-family: Arial;
+	padding-left: 3%;
+}
+
+form p {
+	font-size: 26px;
+	font-family: Arial;
+	color: #97afc9;
+}
+
+select {
+	font-size: 26px;
+	font-family: Arial;
+	margin-left: 20px;
+	padding: 0 20px;
+	font-weight: bold;
+	background-color: #97afc9;
+	color: #08080a;
+	border-radius: 5px;
+	cursor: pointer;
+}
